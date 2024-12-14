@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CrystalReport xmlns="urn:crystal-reports:schemas:report-detail"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd">
+<ReportHeader>
+<Section SectionNumber="0">
+<Text Name="Text10"><TextValue>كشف عمولة تحصيل مندوب</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>)</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>(</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>من :</TextValue>
+</Text>
+<Field Name="p11" FieldName="{?p1}"><FormattedValue>06/06/2017</FormattedValue><Value>2017-06-06</Value></Field>
+<Text Name="Text11"><TextValue>إلى :</TextValue>
+</Text>
+<Field Name="p21" FieldName="{?p2}"><FormattedValue>06/06/2017</FormattedValue><Value>2017-06-06</Value></Field>
+<Field Name="PrintTime1" FieldName="PrintTime"><FormattedValue> 9:28:04PM</FormattedValue><Value>21:28:04</Value></Field>
+<Field Name="PrintDate2" FieldName="PrintDate"><FormattedValue>06/06/2017</FormattedValue><Value>2017-06-06</Value></Field>
+<Text Name="Text6"><TextValue>رقم المندوب :</TextValue>
+</Text>
+<Text Name="Text7"><TextValue>اسم المندوب :</TextValue>
+</Text>
+<Text Name="Text8"><TextValue>العنوان :</TextValue>
+</Text>
+<Text Name="Text9"><TextValue>المدينة :</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>رقم الهاتف :</TextValue>
+</Text>
+<Field Name="Name1" FieldName="{SalesMan.Name}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="City1" FieldName="{SalesMan.City}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="Address1" FieldName="{SalesMan.Address}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="ContactNo1" FieldName="{SalesMan.ContactNo}"><FormattedValue></FormattedValue><Value></Value></Field>
+<Field Name="SalesManID1" FieldName="{SalesMan.SalesMan_ID}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</ReportHeader>
+<ReportFooter>
+<Section SectionNumber="0">
+<Field Name="RTotal01" FieldName="{#RTotal0}"><FormattedValue></FormattedValue><Value></Value></Field>
+</Section>
+</ReportFooter>
+</CrystalReport>
